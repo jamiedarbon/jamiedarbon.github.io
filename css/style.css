@@ -19,6 +19,11 @@ body {
     background-color: darkslategrey;
 }
 
+#headerContainer {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .header ul {
     list-style-type: none;
     margin: 0;
@@ -73,7 +78,7 @@ body {
 #titles {
     font-family: Assistant;
     color: whitesmoke;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 #titles h1 {

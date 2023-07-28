@@ -14,8 +14,13 @@ body {
     margin: 0;
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+}
+
 #intro {
-    padding-top: 15px;
+    padding-top: 115px;
     background-color: darkslategrey;
 }
 

@@ -10,10 +10,64 @@
 
 body {
     background-color: lightblue;
+    padding: 0;
+    margin: 0;
 }
 
-.container-fluid {
+#intro {
+    padding-top: 15px;
     background-color: darkslategrey;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.header li {
+    display: inline;
+    float: left;
+}
+
+.header p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: BebasNeue;
+    font-size: 24px;
+    display: block;
+    padding: 8px;
+    background-color: whitesmoke;
+}
+
+#about {
+    background-color: darkslategrey;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#about h1 {
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#about p {
+    color: whitesmoke;
+    font-family: Assistant;
+    margin-left: 100px;
+    float: left;
+}
+
+#picture {
+    float:right;
+    height: auto;
 }
 
 #titles {
@@ -38,4 +92,9 @@ body {
 video {
     width: 100%;
     height: auto;
+    padding-bottom: 0px;
+}
+
+#text {
+    font-size: 16px;
 }

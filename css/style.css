@@ -1,8 +1,31 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Assistant;
+    src: url(../fonts/Assistant-VariableFont_wght.ttf);
+}
+
 body {
     background-color: lightblue;
 }
 
-h1 {
-    color: navy;
-    margin-left: 20px;
+.container-fluid {
+    background-color: darkslategrey;
+}
+
+#titles {
+    font-family: Assistant;
+    color: whitesmoke;
+    margin-left: 300px;
+}
+
+#titles h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 120px;
+    font-family: BebasNeue;
+    font-size: 150px;
 }

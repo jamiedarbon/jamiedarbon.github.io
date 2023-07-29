@@ -55,8 +55,9 @@ body {
 #about {
     background-color: darkslategrey;
     overflow: hidden;
-    padding: 0;
-    margin: 0;
+    margin-top: -10px;
+    padding-top: -10px;
+    width:100%;
 }
 
 #about h1 {
@@ -108,5 +109,75 @@ video {
 #text {
     font-size: 24px;
     word-wrap: break-word;
+    margin-bottom: -9px;
     width: 50%;
 }
+
+#education {
+    background-color: #436b6b;
+    width:100%;
+}
+
+#education h1 {
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: whitesmoke;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#education p {
+    color: whitesmoke;
+    font-family: Assistant;
+    margin-left: 100px;
+    float: left;
+}
+
+#educationText {
+    color: whitesmoke;
+    font-family: Assistant;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+    word-wrap: break-word;
+}
+
+#cards {
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.card {
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 5px;
+}
+
+#eduCard h1 {
+    font-family: BebasNeue;
+    font-size: 30px;
+    color: black;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#eduCard p {
+    margin-left: 15px;
+    font-family: Assistant;
+    width: 100%;
+    color: black;
+}
+
+#eduCard ul {
+    display: inline-block;
+}
+
+#eduCard li {
+    font-family: Assistant;
+}
+

@@ -28,8 +28,8 @@ html, body {
 }
 
 #headerContainer {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 5.2%;
+    margin-right: 5.2%;
 }
 
 .header ul {
@@ -67,7 +67,7 @@ html, body {
     font-family: BebasNeue;
     font-size: 100px;
     color: whitesmoke;
-    margin-left: 100px;
+    margin-left: 5.2%;
     margin-bottom: 15px;
     margin-top: 0;
 }
@@ -75,7 +75,7 @@ html, body {
 #about p {
     color: whitesmoke;
     font-family: Assistant;
-    margin-left: 100px;
+    margin-left: 5.2%;
     float: left;
 }
 
@@ -87,7 +87,7 @@ html, body {
 #titles {
     font-family: Assistant;
     color: whitesmoke;
-    margin-left: 100px;
+    margin-left: 5.2%;
 }
 
 #titles h1 {
@@ -112,7 +112,6 @@ video {
 #text {
     font-size: 24px;
     word-wrap: break-word;
-    margin-bottom: -9px;
     width: 50%;
 }
 
@@ -125,7 +124,7 @@ video {
     font-family: BebasNeue;
     font-size: 100px;
     color: whitesmoke;
-    margin-left: 100px;
+    margin-left: 5.2%;
     margin-bottom: 15px;
     margin-top: 0;
 }
@@ -133,8 +132,8 @@ video {
 #education p {
     color: whitesmoke;
     font-family: Assistant;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 5.2%;
+    margin-right: 5.2%;
     width: 100%;
     float: left;
 }
@@ -142,8 +141,8 @@ video {
 #educationText {
     color: whitesmoke;
     font-family: Assistant;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 5.2%;
+    margin-right: 5.2%;
     font-size: 24px;
     word-wrap: break-word;
 }
@@ -190,5 +189,6 @@ video {
     font-size: 24px;
     word-wrap: break-word;
     width: 50%;
+    padding-right: 5.2%;
 }
 

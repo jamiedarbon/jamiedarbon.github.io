@@ -192,3 +192,60 @@ video {
     padding-right: 5.2%;
 }
 
+#portfolio {
+    background-color: darkslategrey;
+    overflow: hidden;
+    width: 100%;
+}
+
+#portfolio h1 {
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: whitesmoke;
+    margin-left: 5.2%;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#portfolioText {
+    color: whitesmoke;
+    font-family: Assistant;
+    font-size: 24px;
+    word-wrap: break-word;
+    margin-left: 5.2%;
+    float: left;
+}
+
+h2 {
+    font-family: BebasNeue;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#graffiti {
+    background-color: #436b6b;
+    width: 100%;
+    padding-left: 5.2%;
+    padding-right: 5.3%;
+}
+
+iframe {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+    aspect-ratio: 16 / 9;
+}
+
+#graffitiContents {
+    color: whitesmoke;
+    font-family: Assistant;
+    font-size: 24px;
+    word-wrap: break-word;
+    width: 50%;
+    padding-right: 5.2%;
+    float: right;
+}

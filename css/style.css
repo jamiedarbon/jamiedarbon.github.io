@@ -131,6 +131,7 @@ video {
     color: whitesmoke;
     font-family: Assistant;
     margin-left: 100px;
+    width: 100%;
     float: left;
 }
 
@@ -179,5 +180,11 @@ video {
 
 #eduCard li {
     font-family: Assistant;
+}
+
+#educationText {
+    font-size: 24px;
+    word-wrap: break-word;
+    width: 50%;
 }
 

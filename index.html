@@ -3,12 +3,14 @@
 <head>
     <title>Jamie Darbon - Game Developer</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
 </head>
 <body>
     <div class="header">
         <ul>
             <div class="container-fluid" id="headerContainer">
+                <input type="button" onClick="document.getElementById('education').scrollIntoView();" />
                 <li><p>About Me</p></li>
                 <li><p>Education</p></li>
                 <li><p>Portfolio</p></li>
@@ -29,7 +31,7 @@
                 </div>
                 <br>
             </div>
-            <video width="400" autoplay loop muted>
+            <video width="400" playsinline autoplay loop muted>
                 <source src="portfolio.mp4" type="video/mp4" />
             </video>
             <div class="container-fluid" id="about">
@@ -59,6 +61,7 @@
             <div class="container-fluid" id="education">
                 <div class="col-sm-8">
                     <h1>Education</h1>
+                    <p id="educationText">I have achieved qualifications at three separate levels over the course of my educational career: A Bachelor's Degree, A-Levels and GCSEs.</p>
                     <div class="row" id="cards">
                         <div class="card">
                             <div class="container" id="eduCard">

@@ -213,6 +213,7 @@ video {
     font-size: 24px;
     word-wrap: break-word;
     margin-left: 5.2%;
+    margin-right: 5.2%;
     float: left;
 }
 
@@ -224,28 +225,58 @@ h2 {
     margin-top: 0;
 }
 
+h3 {
+    font-family: Assistant;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
 #graffiti {
     background-color: #436b6b;
     width: 100%;
     padding-left: 5.2%;
-    padding-right: 5.3%;
+    padding-right: 5.2%;
+    padding-top: 15px;
 }
 
-iframe {
+#graffitiContents iframe {
     display: inline-block;
     top: 0;
     left: 0;
     width: 40%;
     height: 40%;
+    float: left;
+    margin-right: 2%;
     aspect-ratio: 16 / 9;
 }
 
-#graffitiContents {
+#graffitiVideo p {
     color: whitesmoke;
     font-family: Assistant;
     font-size: 24px;
     word-wrap: break-word;
-    width: 50%;
+    margin-right: 10%;
+}
+
+#caffeine {
+    background-color: darkslategrey;
+    width: 100%;
+    padding-left: 5.2%;
     padding-right: 5.2%;
+    padding-top: 15px;
+    margin-bottom: 8%;
+}
+
+#caffeineContents iframe {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
     float: right;
+    margin-left: 2%;
+    aspect-ratio: 16 / 9;
+    position: static;
 }

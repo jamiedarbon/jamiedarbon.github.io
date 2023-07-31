@@ -9,7 +9,7 @@
 }
 
 html, body {
-    background-color: lightblue;
+    background-color: whitesmoke;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -22,12 +22,21 @@ html, body {
     width: 100%;
 }
 
+.footer {
+    width: 100%;
+}
+
 #intro {
     padding-top: 125px;
     background-color: darkslategrey;
 }
 
 #headerContainer {
+    margin-left: 5.2%;
+    margin-right: 5.2%;
+}
+
+#footerContainer {
     margin-left: 5.2%;
     margin-right: 5.2%;
 }
@@ -46,6 +55,16 @@ html, body {
 }
 
 .header p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: BebasNeue;
+    font-size: 2em;
+    display: block;
+    padding: 8px;
+    background-color: whitesmoke;
+}
+
+.footer p {
     margin-left: 10px;
     margin-right: 10px;
     font-family: BebasNeue;

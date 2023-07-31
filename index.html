@@ -118,7 +118,9 @@
                         I have a diverse and varied portfolio, with projects such as games, 3D models and art.<br />
                         For example, this website is entirely my own work, with all code, design and content being
                         made solely by myself. <br />Below, you will find various examples of my work, each detailing the
-                        project's background and how I aided in its development.
+                        project's background and how I aided in its development. <br /><br />
+                        You can find my GitHub portfolio at: <a href="https://github.com/jamiedarbon">https://github.com/jamiedarbon</a><br />
+                        You can find my ArtStation portfolio at: <a href="https://www.artstation.com/sleepyboi">https://www.artstation.com/sleepyboi</a>
                     </p>
                 </div>
             </div>
@@ -397,91 +399,96 @@
                 </div>
                 <br>
             </div>
+
         </div>
-    </div>
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
+        <div class="footer">
+                <div class="container-fluid" id="footerContainer">
+                </div>
+        </div>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
             }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
             }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
-    <script>
-        let slideIndex2 = 1;
-        showSlides2(slideIndex2);
 
-        function plusSlides2(n) {
-            showSlides2(slideIndex2 += n);
-        }
-
-        function currentSlide2(n) {
-            showSlides2(slideIndex2 = n);
-        }
-
-        function showSlides2(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides2");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex2 = 1 }
-            if (n < 1) { slideIndex2 = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
             }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex2 - 1].style.display = "block";
-            dots[slideIndex2 - 1].className += " active";
-        }
-    </script>
-    <script>
-        let slideIndex3 = 1;
-        showSlides3(slideIndex3);
+        </script>
+        <script>
+            let slideIndex2 = 1;
+            showSlides2(slideIndex2);
 
-        function plusSlides3(n) {
-            showSlides3(slideIndex3 += n);
-        }
-
-        function currentSlide3(n) {
-            showSlides3(slideIndex3 = n);
-        }
-
-        function showSlides3(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides3");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) { slideIndex3 = 1 }
-            if (n < 1) { slideIndex3 = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+            function plusSlides2(n) {
+                showSlides2(slideIndex2 += n);
             }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
+
+            function currentSlide2(n) {
+                showSlides2(slideIndex2 = n);
             }
-            slides[slideIndex3 - 1].style.display = "block";
-            dots[slideIndex3 - 1].className += " active";
-        }
-    </script>
+
+            function showSlides2(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides2");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex2 = 1 }
+                if (n < 1) { slideIndex2 = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex2 - 1].style.display = "block";
+                dots[slideIndex2 - 1].className += " active";
+            }
+        </script>
+        <script>
+            let slideIndex3 = 1;
+            showSlides3(slideIndex3);
+
+            function plusSlides3(n) {
+                showSlides3(slideIndex3 += n);
+            }
+
+            function currentSlide3(n) {
+                showSlides3(slideIndex3 = n);
+            }
+
+            function showSlides3(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides3");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex3 = 1 }
+                if (n < 1) { slideIndex3 = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex3 - 1].style.display = "block";
+                dots[slideIndex3 - 1].className += " active";
+            }
+        </script>
 </body>
 </html>

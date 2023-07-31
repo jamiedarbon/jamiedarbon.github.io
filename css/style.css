@@ -145,7 +145,7 @@ a:link, a:visited, a:hover, a:active {
     margin-top: -10px;
     padding-top: -10px;
     width:100%;
-    scroll-margin-top: 5em;
+    scroll-margin-top: 6em;
 }
 
 #about h1 {
@@ -203,7 +203,7 @@ video {
 #education {
     background-color: #436b6b;
     width: 100%;
-    scroll-margin-top: 7em;
+    scroll-margin-top: 6em;
 }
 
 #education h1 {
@@ -282,7 +282,7 @@ video {
     background-color: darkslategrey;
     overflow: hidden;
     width: 100%;
-    scroll-margin-top: 7em;
+    scroll-margin-top: 6em;
 }
 
 #portfolio h1 {
@@ -336,7 +336,7 @@ h3 {
     padding-right: 5.2%;
     padding-top: 15px;
     padding-bottom: 1%;
-    scroll-margin-top: 7em;
+    scroll-margin-top: 6em;
 }
 
 #graffitiContents iframe {
@@ -374,7 +374,7 @@ h3 {
     padding-right: 5.2%;
     padding-top: 15px;
     margin-bottom: 5%;
-    scroll-margin-top: 7em;
+    scroll-margin-top: 6em;
 }
 
 #contact {
@@ -384,7 +384,7 @@ h3 {
     padding-right: 5.2%;
     padding-top: 15px;
     margin-bottom: 5%;
-    scroll-margin-top: 7em;
+    scroll-margin-top: 6em;
 }
 
 #caffeineContents iframe {

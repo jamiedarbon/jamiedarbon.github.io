@@ -15,6 +15,11 @@ html, body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: whitesmoke;
 }
 
 .header {
@@ -74,12 +79,73 @@ html, body {
     background-color: whitesmoke;
 }
 
+.dropbtn {
+    background-color: whitesmoke;
+    padding: 16px;
+    font-family: BebasNeue;
+    font-size: 2em;
+    border: none;
+}
+
+.dropdown {
+    display: block;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.headerButton {
+    border: none;
+    background-color: whitesmoke;
+    display: block;
+    padding-top: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.headerButton a {
+    font-family: BebasNeue;
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-family: Assistant;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
 #about {
     background-color: darkslategrey;
     overflow: hidden;
     margin-top: -10px;
     padding-top: -10px;
     width:100%;
+    scroll-margin-top: 5em;
 }
 
 #about h1 {
@@ -136,7 +202,8 @@ video {
 
 #education {
     background-color: #436b6b;
-    width:100%;
+    width: 100%;
+    scroll-margin-top: 7em;
 }
 
 #education h1 {
@@ -215,6 +282,7 @@ video {
     background-color: darkslategrey;
     overflow: hidden;
     width: 100%;
+    scroll-margin-top: 7em;
 }
 
 #portfolio h1 {
@@ -261,6 +329,16 @@ h3 {
     padding-bottom: 1%;
 }
 
+#art {
+    background-color: #436b6b;
+    width: 100%;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+    padding-top: 15px;
+    padding-bottom: 1%;
+    scroll-margin-top: 7em;
+}
+
 #graffitiContents iframe {
     display: inline-block;
     top: 0;
@@ -287,6 +365,26 @@ h3 {
     padding-right: 5.2%;
     padding-top: 15px;
     margin-bottom: 5%;
+}
+
+#test {
+    background-color: darkslategrey;
+    width: 100%;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+    padding-top: 15px;
+    margin-bottom: 5%;
+    scroll-margin-top: 7em;
+}
+
+#contact {
+    background-color: darkslategrey;
+    width: 100%;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+    padding-top: 15px;
+    margin-bottom: 5%;
+    scroll-margin-top: 7em;
 }
 
 #caffeineContents iframe {
